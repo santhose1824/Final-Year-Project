@@ -1,0 +1,15 @@
+.dashboard {
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #221e1e;
+  overflow-x: hidden;
+}
+
+.home-section {
+  position: relative;
+  min-height: 100vh;
+  max-width: 100vw;
+  top: 0;
+  transition: all 0.5s ease;
+  z-index: 2;
+}

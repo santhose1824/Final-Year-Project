@@ -1,0 +1,7 @@
+
+.custom-model {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f9f9f9; /* Light background color */
+    overflow-y: hidden;
+}

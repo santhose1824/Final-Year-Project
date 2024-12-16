@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar{
+  background: #0a0a0a;
+  height: 100vh;
+  position: relative;
+  color: white;
+  transition: all 0s ease;
+  -webkit-transition: all 0s ease;
+  -moz-transition: all 0s ease;
+  -ms-transition: all 0s ease;
+  -o-transition: all 0s ease;
+}
+
+.main-container .top-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between; /* Space out the title and the toggle button */
+  padding: 20px;
+  position: relative;
+  transition: all 0s ease;
+}
+
+.main-container .top-section .toggle-btn {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.sidebar-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background: linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%) 50% 50% / 100% 100%;
+  font-size: 20px;
+  color: #000;
+  border-radius:10px ;
+  font-weight: 600;
+}
+
+
+.title{
+  margin-top: 30px;
+}
+.title .sidebar-title{
+  padding: 10px;
+  color: black;
+  margin-left: 50px;
+  background: linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%) 50% 50% / 100% 100%;
+  font-size: 19px;
+  border-radius:10px ;
+  font-weight: 600;
+}
+.routes{
+  margin-top: 20px;
+  display: block;
+  padding: 10px;
+  transition: all 0s ease;
+}
+
+.routes .nav-link{
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  background: #11101D;
+}
+
+.routes .nav-link .link_text{
+  margin-left: 20px;
+}
+.routes .nav-link .icon{
+  font-size: 20px;
+  color: rgb(187, 139, 255);
+  font-weight: bold;
+}
+
+.routes .nav-link:hover {
+  background: rgb(187, 139, 255); /* The background color you specified */
+  color: #fff; /* Set the text color to white */
+}
+
+.routes .nav-link:hover .icon, 
+.routes .nav-link:hover .link_text {
+  color: #fff; /* Ensure both the icon and link text become white on hover */
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0; /* Start from the left edge */
+  width: 100%; /* Ensure it stays within the width of the sidebar */
+  background: #1d1b31; /* Specific background color for the user section */
+  color: #fff; /* Text color */
+  transition: width 0.5s ease; /* Smooth transition for the width when sidebar opens/closes */
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  background-color: #6d2480;  /* Color for avatar */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.username {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.bx-log-out {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 20px;
+}
+

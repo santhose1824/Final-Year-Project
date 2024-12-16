@@ -1,0 +1,52 @@
+
+.services-container {
+    background-color: #140e0e; /* Matching green color for the webpage theme */
+    padding: 20px;
+    /* border-radius: 8px; */
+    font-family: 'Comic Sans MS', sans-serif; /* Use Comic Sans MS font */
+    width: 100%; /* Ensure full width */
+  }
+  .Cards-container{
+    padding: 0 80px;
+  }
+ 
+  .ourservicetext{
+    color: #fff;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif; /* Use Comic Sans MS font */
+  }
+  .card-title{
+    font-family: 'Roboto', sans-serif; 
+  }
+
+  .custom-card {
+    border: none;
+    margin-top: 10px;
+    transition: transform 0.2s; /* Smooth hover effect */
+    border-radius: 8px; /* Consistent card shape */
+    height: 100%; /* Ensure consistent card height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .custom-card:hover {
+    background-color: #fff; /* Light green background */
+    box-shadow: 0 1px 8px #447604; /* Subtle shadow for depth */
+  }
+  
+  .explore-button {
+    background: linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%) 50% 50% / 100% 100%;
+    border: none;
+    color: black !important;
+    font-weight: bold !important;
+    margin-top: 10px;
+  }
+  
+  .explore-button:hover {
+    background-color: rgb(187, 139, 255);
+    transform: scale(1.05);
+    /* box-shadow: 0 0 10px #39ff14,  */
+    /* Original shadow 0 0 20px #39ff14; */
+    box-shadow:  0 0 10px rgb(117, 246, 255);
+  }
+  

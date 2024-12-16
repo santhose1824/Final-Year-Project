@@ -1,0 +1,101 @@
+.sidebar-close {
+    width: 300px; /* Fixed width for sidebar */
+    background: #0a0a0a; /* Sidebar background color */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh; /* Full height of the viewport */
+    position: fixed; /* Fixed positioning */
+    transition: all 0.3s ease; /* Smooth transition for toggling */
+}
+
+.logo-details {
+    padding: 10px; /* Padding for logo section */
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%) 50% 50% / 100% 100%;
+    font-size: 18px;
+    border-radius:10px ;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+
+.nav-links {
+    list-style-type: none; /* Remove bullet points */
+}
+
+.nav-links li {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    background: #0e0e10; /* Position for dropdown */
+}
+.nav-links li a{
+    color: white; /* Text color for sub-menu links */
+    text-decoration: none; /* Remove underline */
+}
+.iocn-link {
+    display: flex;
+    align-items: center; /* Center icons vertically */
+    padding: 15px 20px; /* Padding for each link */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: white; /* Text color */
+}
+
+.iocn-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    border-radius: 12px; /* Light hover effect */
+}
+
+.link_name {
+    margin-left: 10px; /* Spacing between icon and text */
+}
+
+.arrow {
+    margin-left: auto; /* Push arrow to the right */
+}
+
+.sub-menu {
+    display: none; /* Hidden by default */
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 20px; 
+}
+
+.sub-menu.showMenu {
+    display: block; /* Show sub-menu when toggled */
+}
+
+.sub-menu li {
+    padding: 10px 0;
+
+}
+
+.sub-menu li a {
+    color: white;
+    padding: 10px;
+    width: 100%;
+    /*Textcolorforsub-menulinks*/text-decoration: none;
+    /*Removeunderline*/background: #11101D;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.sub-menu li a:hover{
+    background: rgb(187, 139, 255);
+}

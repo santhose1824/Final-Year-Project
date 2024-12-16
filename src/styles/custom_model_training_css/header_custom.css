@@ -1,0 +1,40 @@
+.header-custom {
+    position: fixed;
+    top: 20;
+    left: 300px;
+    width: calc(100% - 280px);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    z-index: 1000;
+  }
+  
+  .header-custom img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: #0a0a0a;
+      margin-right: 20px; /* Space between image and title */
+  }
+  
+  .section-name-custom {
+      padding: 5px;
+      color: white;
+      font-size: 20px;
+      margin: 0; /* Remove default margin */
+  }
+  .webpage-name-custom{
+      background: linear-gradient(205deg, rgb(187, 139, 255) 8.49%, rgb(117, 246, 255) 91.51%) 50% 50% / 100% 100%;
+      padding: 5px;
+      border-radius: 10px;
+      color: black;
+      font-size: 20px;
+      margin: 0;
+      /*Removedefaultmargin*/
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+  }
+  
